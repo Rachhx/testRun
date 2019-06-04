@@ -1,0 +1,18 @@
+﻿<Window x:Class="AstraTestWpf.MainTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AstraTestWpf"
+        mc:Ignorable="d"
+        Title="MainTest" Height="350" Width="300" SizeToContent="WidthAndHeight">
+    <Grid>
+        <StackPanel  Margin="10" Orientation="Vertical">
+            <CheckBox x:Name="color" Margin="73,3,91,3" Padding="5" VerticalContentAlignment="Center" Height="47" FontSize="20">Colour?</CheckBox>
+            <CheckBox x:Name="track" Margin="73,3,29,3" Padding="5" VerticalContentAlignment="Center" Height="47" FontSize="20" Content="BodyTracking?"/>
+            <Button x:Name="BUTTON" Content="Next" Height="79" FontSize="20" Click="Next_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
